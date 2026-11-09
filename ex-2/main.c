@@ -16,7 +16,7 @@ int main()
     printf("Donne un autre nombre :\n");
     scanf("%d", &nombre_2);
 
-    int resultat = addition (nombre_1, nombre_2);
+    int resultat = add (nombre_1, nombre_2);
     printf("Resultat : %d\n", resultat);
 
     return(0);
